@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+
+
+<DialogPane fx:controller="application.DialogController" xmlns:fx="http://javafx.com/fxml/1"  >
+		<headerText>
+			
+			We could put instructions here
+		
+		</headerText>
+		
+		<content>
+		
+			<GridPane vgap="10" hgap="10">
+			
+				<Label text="Short Description: " GridPane.rowIndex="0" GridPane.comlumnIndex="0" />
+				
+				<TextField GridPane.rowIndex="0" GridPane.comlumnIndex="1" />
+				
+				<Label text="Details: " GridPane.rowIndex="1" GridPane.comlumnIndex="0" />
+				
+				<TextField GridPane.rowIndex="1" GridPane.comlumnIndex="1" />
+				
+				<Label text="Deadline: " GridPane.rowIndex="2" GridPane.comlumnIndex="0" />
+				
+				<TextField GridPane.rowIndex="2" GridPane.comlumnIndex="1" />
+				
+			</GridPane>
+		
+		</content>
+</DialogPane>
